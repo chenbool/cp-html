@@ -1,33 +1,43 @@
 // http://www.bootcss.com/p/lesscss/
-#notice{
-
+#notice {
     .left_cont {
         height: 100%;
         border-right: 1px solid #CECECE;
-
-        &>ul{
+        &>ul {
             padding: 5px;
             margin: 0;
-
-            &>li{
-                a{
+            &>li {
+                a {
                     text-decoration: none;
                     .date {
                         font-size: 12px;
                         color: #b1b0b0;
                         margin-right: 5px;
                     }
-
                     .title {
                         color: #666;
-                        &:hover{
+                        &:hover {
                             color: #0068B7;
                         }
                     }
                 }
-
             }
         }
     }
-
+    .right_cont {
+        &>.new_box {
+            .new-top {
+                background-image: url(../img/index/an_top.png);
+                width: 920px;
+                height: 120px;
+                background-repeat: no-repeat;
+            }
+            .new-bottom {
+                background-image: url(../img/index/an_bottom.png);
+                width: 920px;
+                height: 120px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
 }
