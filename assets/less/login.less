@@ -1,0 +1,163 @@
+// 背景图片
+@body_bg: '../img/login/body-bg.jpg';
+
+body{
+    background: url(@body_bg) no-repeat top center #330a07;
+}
+
+#login{
+    min-height: 300px;
+    padding-top: 40px;
+    width: 798px;
+    margin: 0 auto;
+    
+    &>.logo {
+        height: 70px;
+        width: 300px;
+    }
+    &>.title{
+        width: 100%;
+        height: 37px;
+        background: url(../img/login/autoreg_tit.png) no-repeat center;
+        background-size: 100% 100%;
+        text-align: right;
+        line-height: 37px;
+        color: #BA9C49;
+        font-size: 16px;
+        padding-right: 4%;
+    }
+    &>.content{
+    	min-height:100px;
+        
+        // right
+        &>.con_left {
+            width: 60%;
+            cursor: pointer;
+            float: left;
+
+            &>img.banner {
+                width: 100%;
+                height: 274px;
+            }
+            &>.link{
+                &>a{
+                    display: block;
+                    width: 50%;
+                    float: left;
+                }
+                & img{
+                    width: 100%;
+                    height: 174px;
+                    &:hover {
+                        opacity: .8;
+                        -webkit-box-shadow: 0 0 50px #b85350 inset;
+                        -moz-box-shadow: 0 0 50px #b85350 inset;
+                        box-shadow: 0 0 50px #b85350 inset;
+                        mix-blend-mode: screen;
+                    }
+                }
+
+            }  
+        }
+
+        // right
+        &>.con_right{
+            float: left;
+            width: 40%;
+            background-color: #fff;
+            &>.login{
+                padding: 17px 30px;
+                height: 380px;
+                
+                & form{
+                    
+                    min-height: 50%;
+                    & .form-group label{
+                        letter-spacing: 3px;
+                        font-size: 14px;
+                        color: #757575;
+                    }
+                    & .code {
+
+                        & img,
+                        & input{
+                            width: 48%;
+                            float: left;
+                        }
+
+                        & img{
+                            // 107 36
+                            width: 107px;
+                            height: 36px;
+                            margin-left: 6px;
+                            cursor: pointer;
+                            border: 1px solid #ccd4d9;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+
+                & .form-group button {
+                    margin-top: 20px;
+                    width: 100%;
+                }
+                & .form-help a{
+                    width: 50%;
+                    color: red;
+                    &.pull-left {
+                        text-align: left;
+                    }
+                    &.pull-right {
+                        text-align: right;
+                    }
+
+                }
+            }
+
+            &>.client{
+                width: 324px;
+                height: 67px;
+                background: url(../img/login/client.png) no-repeat center;
+                cursor: pointer;
+                -webkit-transition: opacity 200ms linear,
+                box-shadow 200ms linear;
+                -moz-transition: opacity 200ms linear,
+                box-shadow 200ms linear;
+                -o-transition: opacity 200ms linear,
+                box-shadow 200ms linear;
+            }
+        }
+
+
+    }
+
+    &>.footer{
+        margin-top: 40px;
+        clear: both;
+        text-align: center;
+
+        &>.brower{
+            padding-top:20px;
+
+            &>a {
+                font-size: 34px;
+                color: #843636;
+                margin: 2px 8px;
+
+                &:hover {
+                    color: #808080;
+                }
+            }
+
+        }
+        
+        & span {
+            color: #fff;
+            font-size: 14px;
+        }
+
+
+    }
+
+
+}

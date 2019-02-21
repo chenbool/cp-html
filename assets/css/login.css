@@ -1,0 +1,125 @@
+body {
+  background: url('../img/login/body-bg.jpg') no-repeat top center #330a07;
+}
+#login {
+  min-height: 300px;
+  padding-top: 40px;
+  width: 798px;
+  margin: 0 auto;
+}
+#login > .logo {
+  height: 70px;
+  width: 300px;
+}
+#login > .title {
+  width: 100%;
+  height: 37px;
+  background: url(../img/login/autoreg_tit.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: right;
+  line-height: 37px;
+  color: #BA9C49;
+  font-size: 16px;
+  padding-right: 4%;
+}
+#login > .content {
+  min-height: 100px;
+}
+#login > .content > .con_left {
+  width: 60%;
+  cursor: pointer;
+  float: left;
+}
+#login > .content > .con_left > img.banner {
+  width: 100%;
+  height: 274px;
+}
+#login > .content > .con_left > .link > a {
+  display: block;
+  width: 50%;
+  float: left;
+}
+#login > .content > .con_left > .link img {
+  width: 100%;
+  height: 174px;
+}
+#login > .content > .con_left > .link img:hover {
+  opacity: .8;
+  -webkit-box-shadow: 0 0 50px #b85350 inset;
+  -moz-box-shadow: 0 0 50px #b85350 inset;
+  box-shadow: 0 0 50px #b85350 inset;
+  mix-blend-mode: screen;
+}
+#login > .content > .con_right {
+  float: left;
+  width: 40%;
+  background-color: #fff;
+}
+#login > .content > .con_right > .login {
+  padding: 17px 30px;
+  height: 380px;
+}
+#login > .content > .con_right > .login form {
+  min-height: 50%;
+}
+#login > .content > .con_right > .login form .form-group label {
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: #757575;
+}
+#login > .content > .con_right > .login form .code img,
+#login > .content > .con_right > .login form .code input {
+  width: 48%;
+  float: left;
+}
+#login > .content > .con_right > .login form .code img {
+  width: 107px;
+  height: 36px;
+  margin-left: 6px;
+  cursor: pointer;
+  border: 1px solid #ccd4d9;
+  border-radius: 4px;
+}
+#login > .content > .con_right > .login .form-group button {
+  margin-top: 20px;
+  width: 100%;
+}
+#login > .content > .con_right > .login .form-help a {
+  width: 50%;
+  color: red;
+}
+#login > .content > .con_right > .login .form-help a.pull-left {
+  text-align: left;
+}
+#login > .content > .con_right > .login .form-help a.pull-right {
+  text-align: right;
+}
+#login > .content > .con_right > .client {
+  width: 324px;
+  height: 67px;
+  background: url(../img/login/client.png) no-repeat center;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms linear, box-shadow 200ms linear;
+  -moz-transition: opacity 200ms linear, box-shadow 200ms linear;
+  -o-transition: opacity 200ms linear, box-shadow 200ms linear;
+}
+#login > .footer {
+  margin-top: 40px;
+  clear: both;
+  text-align: center;
+}
+#login > .footer > .brower {
+  padding-top: 20px;
+}
+#login > .footer > .brower > a {
+  font-size: 34px;
+  color: #843636;
+  margin: 2px 8px;
+}
+#login > .footer > .brower > a:hover {
+  color: #808080;
+}
+#login > .footer span {
+  color: #fff;
+  font-size: 14px;
+}

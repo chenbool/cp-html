@@ -1,0 +1,22 @@
+#notice .left_cont {
+  height: 100%;
+  border-right: 1px solid #CECECE;
+}
+#notice .left_cont > ul {
+  padding: 5px;
+  margin: 0;
+}
+#notice .left_cont > ul > li a {
+  text-decoration: none;
+}
+#notice .left_cont > ul > li a .date {
+  font-size: 12px;
+  color: #b1b0b0;
+  margin-right: 5px;
+}
+#notice .left_cont > ul > li a .title {
+  color: #666;
+}
+#notice .left_cont > ul > li a .title:hover {
+  color: #0068B7;
+}
