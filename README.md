@@ -2,6 +2,15 @@
 
 HTML5 网页模板，包含首页和登录页。
 
+## 演示截图
+
+<table>
+    <tr>
+        <td><img src="./demo/QQ20260501-110216.png" align=center /></td>
+        <td><img src="./demo/QQ20260501-110242.png" align=center /></td>
+    </tr>
+</table>
+
 ## 项目结构
 
 ```
